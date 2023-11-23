@@ -76,8 +76,8 @@ else:
     izip = zip
     long_type = int
     next = next
-    import pickle
-    from pickle import dumps, loads, dump, load
+    import pickle5 as pickle
+    from pickle5 import dumps, loads, dump, load
     StringIO = io.StringIO
     string_type = str
     text_type = str
